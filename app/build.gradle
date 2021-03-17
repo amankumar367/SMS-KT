@@ -38,6 +38,11 @@ dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation Dependencies.Kotlin.kotlin_stdlib_jdk7
 
+    //Modules
+    implementation project(Dependencies.Module.domain)
+    implementation project(Dependencies.Module.data)
+    implementation project(Dependencies.Module.presentaion)
+
     //Android X
     implementation Dependencies.AndroidX.appcompat
     implementation Dependencies.AndroidX.materialDesign
