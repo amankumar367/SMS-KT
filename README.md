@@ -1,0 +1,2 @@
+# SMS-KT
+This is a sample SMS listing Android application built to demonstrate the use of Clean Architecture tools. Dedicated to all Android Developers - (Kotlin, MVVM, Clean Architecture, Rx-Java, Dagger, OkHttp, SOLID principles)
